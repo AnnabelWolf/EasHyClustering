@@ -35,7 +35,7 @@ Once your trajectories are ready you can perform the cluster analysis. This can 
 
 ## How to cite
 
-Please cite ___ when using this code. _Other citations are required for the use of HYSPLIT and PySPLIT! Please read their requirements._
+Please cite DOI: 10.5281/zenodo.7574382 when using this code. _Other citations are required for the use of HYSPLIT and PySPLIT! Please read their requirements._
 Many thanks to NOAA Air Research Laboratory for the HYSPLIT model.
 
 This is program is free software and runs under MIT Licence.
