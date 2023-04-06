@@ -155,13 +155,13 @@ map.fillcontinents()
 map.drawcoastlines()
 
 
-i, j = map(cluster_coordinates1[:,1], cluster_coordinates1[:,0])  # transform coordinates
+i, j = map(cluster_coordinates1[0:len(mean_proxy1),1], cluster_coordinates1[0:len(mean_proxy1),0])  # transform coordinates
 map.scatter(i, j, c=mean_proxy1,s=40,cmap=plt.cm.get_cmap('BrBG', 8),edgecolors=None,zorder=14) #,alpha=0.5,zorder=10
 
-i, j = map(cluster_coordinates2[:,1], cluster_coordinates2[:,0])  # transform coordinates
+i, j = map(cluster_coordinates2[0:len(mean_proxy2),1], cluster_coordinates2[0:len(mean_proxy2),0])  # transform coordinates
 map.scatter(i, j, c=mean_proxy2,s=40,cmap=plt.cm.get_cmap('BrBG', 8),edgecolors=None,zorder=14) #,alpha=0.5,zorder=10
 
-i, j = map(cluster_coordinates3[:,1], cluster_coordinates3[:,0])  # transform coordinates
+i, j = map(cluster_coordinates3[0:len(mean_proxy3),1], cluster_coordinates3[0:len(mean_proxy3),0])  # transform coordinates
 map.scatter(i, j, c=mean_proxy3,s=40,cmap=plt.cm.get_cmap('BrBG', 8),edgecolors=None,zorder=14) #,alpha=0.5,zorder=10
 
 """
